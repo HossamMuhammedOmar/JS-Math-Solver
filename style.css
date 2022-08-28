@@ -94,6 +94,11 @@ button {
   color: #6b7280;
 }
 
+.total-txt {
+  font-weight: bold;
+  color: #1b2438;
+}
+
 .math {
   background-color: #d1d5db;
   text-align: center;
