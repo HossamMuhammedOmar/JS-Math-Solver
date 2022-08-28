@@ -1,1 +1,1 @@
-# Reg-Math-Solver
+# JS-Math-Solver
