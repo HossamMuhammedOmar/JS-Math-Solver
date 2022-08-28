@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+* {
+  font-size: 22px;
+}
+
+body {
+  background-color: #3b69e1;
+  color: #e5e7eb;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Righteous', cursive;
+  font-weight: 400;
+  color: #fff;
+  margin-top: 30px;
+  font-size: 42px;
+}
+
+.equation {
+  width: 80%;
+  padding: 10px;
+  outline: none;
+  border: #f38b17 3px solid;
+  font-family: 'Righteous', cursive;
+  margin-bottom: 20px;
+  box-shadow: 5px 5px 15px #1f293754;
+}
+
+button:hover {
+  background-color: #f38b17;
+  color: #fff;
+}
+
+button {
+  padding: 10px 25px;
+  cursor: pointer;
+  border: #f38b17 3px solid;
+  font-weight: bold;
+  box-shadow: 5px 5px 15px #1f293754;
+}
+
+.results {
+  display: none;
+  background: #e0f2fe;
+  width: 50%;
+  padding: 10px;
+  margin: 0 auto;
+  color: #1f2937;
+  text-align: start;
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px #1f293754;
+  font-weight: bold;
+}
+
+.multiply-div,
+.division-div,
+.sum-div,
+.total-div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.multiply {
+  background-color: #cd364f;
+  padding: 5px;
+  color: #e0f2fe;
+}
+
+.division {
+  background-color: #f59e0b;
+  padding: 5px;
+}
+
+.sum {
+  background-color: #0ea5e9;
+  padding: 5px;
+}
+
+.total {
+  background-color: #34d399;
+  padding: 5px;
+}
+
+.multiply-txt,
+.division-txt,
+.sum-txt,
+.total-txt {
+  font-size: 13px;
+  font-family: 'Righteous', cursive;
+  font-weight: normal;
+  color: #6b7280;
+}
+
+.math {
+  background-color: #d1d5db;
+  text-align: center;
+  border-radius: 5px;
+  padding: 10px;
+}
